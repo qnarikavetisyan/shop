@@ -4,11 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="style.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
     <title>Online Shop</title>
   </head>
@@ -54,8 +53,8 @@
            My Account
           </a>       
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item btn-secondary" data-toggle="modal" data-target="#LoginModal">Login</a>
-              <a class="dropdown-item btn-secondary" href="#">Register</a>
+              <a class="dropdown-item btn-secondary" role="button" data-toggle="modal" data-target="#LoginModal">Login</a>
+              <a class="dropdown-item btn-secondary" role="button" data-toggle="modal" data-target="#RegModal" href="#">Register</a>
               <a class="dropdown-item btn-secondary" href="#">My orders</a>
               <a class="dropdown-item btn-secondary" href="#">Account settings</a>
             </div>
@@ -76,8 +75,8 @@
           
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item btn-secondary" href="Denim.html">Denim</a>
-              <a class="dropdown-item btn-secondary" href="#">Coats</a>
-              <a class="dropdown-item btn-secondary" href="#">Leather-look</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Coats</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Leather-look</a>
             </div>
           </div>
 
@@ -88,9 +87,9 @@
           </a>
           
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item btn-secondary" href="#">Printed</a>
-              <a class="dropdown-item btn-secondary" href="#">Tops</a>
-              <a class="dropdown-item btn-secondary" href="#">Trends</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Printed</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Tops</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Trends</a>
             </div>
           </div>
 
@@ -101,9 +100,9 @@
           </a>
           
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item btn-secondary" href="#">Cargo</a>
-              <a class="dropdown-item btn-secondary" href="#">Skinny</a>
-              <a class="dropdown-item btn-secondary" href="#">High Rise</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Cargo</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Skinny</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">High Rise</a>
             </div>
           </div>
 
@@ -113,9 +112,9 @@
           </a>
           
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item btn-secondary" href="#">Mini</a>
-              <a class="dropdown-item btn-secondary" href="#">Midi</a>
-              <a class="dropdown-item btn-secondary" href="#">Maxi</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Mini</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Midi</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Maxi</a>
             </div>
           </div>
 
@@ -125,9 +124,9 @@
           </a>
           
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item btn-secondary" href="#">Leather</a>
-              <a class="dropdown-item btn-secondary" href="#">Sneakers</a>
-              <a class="dropdown-item btn-secondary" href="#">Sandals</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Leather</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Sneakers</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Sandals</a>
             </div>
           </div>
 
@@ -137,16 +136,16 @@
           </a>
           
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item btn-secondary" href="#">Earings</a>
-              <a class="dropdown-item btn-secondary" href="#">Rings</a>
-              <a class="dropdown-item btn-secondary" href="#">Necklaces</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Earings</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Rings</a>
+              <a class="dropdown-item btn-secondary" href="Denim.html">Necklaces</a>
             </div>
           </div> 
         </div>
-              </nav> 
+              </nav>  
 
               <div class="row mt-3 justify-content-center">
-                <nav aria-label="breadcrumb" class="col-lg-7 d-none d-lg-block">
+                <nav aria-label="breadcrumb" class="col-lg-7 col-12">
                   <ol class="breadcrumb bg-light">
                     <li class="breadcrumb-item"><a href="index.html" style="color: #808080;">Shop</a></li>
                     <li class="breadcrumb-item" style="color: #808080;">Jackets</li>
@@ -154,7 +153,7 @@
                   </ol>
                 </nav>
                 <div class="col-12 col-lg-2 my-2 d-flex justify-content-center justify-content-lg-end">Sort by:</div>
-                <div class="form-group col-lg-3 col-8 my-lg-1 my-3">
+                <div class="form-group col-lg-3 col-6 my-lg-1 my-3">
                   <select class="custom-select shadow-none">
                     <option selected>Price low to high</option>
                     <option value="1">Price high to low</option>
@@ -373,96 +372,135 @@
                         </div>
                       
                       <div class="col-12 col-lg-9">
-                          <div class="row m-0 border">
-                          <div class="col-5 p-3">
-                          <img src="https://static.bershka.net/4/photos2/2020/V/0/1/p/1142/019/636/1142019636_2_2_3.jpg?t=1583169273811" class="card-img-top w-50" alt="..." >
-                          </div>
-                          <div class="col-4 m-auto">
-                            <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Cropped cotton jacket</a></h5>
-                            <ul class="d-none d-lg-block" style="color: #808080">
+                          <div class="row m-0 align-items-center">
+                          <div class="col-6 col-md-12 border p-2 mt-2">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <img class="w-100" src="https://static.bershka.net/4/photos2/2020/V/0/1/p/1142/019/636/1142019636_2_2_3.jpg?t=1583169273811" alt="">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-6 text-center text-lg-left">
+                                 <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Cropped cotton jacket</a></h5>
+                                    <ul class="d-none d-lg-block" style="color: #808080">
                                         <li>Sizes: S, M, L</li>
                                         <li>Colour: Pink</li>
                                         <li>Model height: 173 cm</li>
                                     </ul>
-                          </div>
-                          <div class="col-3 text-center m-auto">
-                            <h5>14,900 AMD</h5>
-                              <a href="#" class="btn btn-secondary text-center">Add to cart</a>
-                          </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                                    <div><h5>14,900 AMD</h5></div>
+                                    <a href="product.html"><button class="btn btn-secondary">Add To Cart</button></a>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="row mt-2 m-0 border">
-                          <div class="col-5 p-3">
-                          <img src="https://static.bershka.net/4/photos2/2020/I/0/1/p/1110/335/428/1110335428_1_1_3.jpg?t=1583146585746" class="card-img-top w-50" alt="..." >
-                          </div>
-                          <div class="col-4 m-auto">
-                            <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Denim jacket blue</a></h5>
-                            <ul class="d-none d-lg-block" style="color: #808080">
+                  
+                          <div class="col-6 col-md-12 border p-2 mt-2">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <img class="w-100" src="https://static.bershka.net/4/photos2/2020/I/0/1/p/1110/335/428/1110335428_1_1_3.jpg?t=1583146585746" alt="">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-6 text-center text-lg-left">
+                                 <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Long denim jacket</a></h5>
+                                    <ul class="d-none d-lg-block" style="color: #808080">
                                         <li>Sizes: M, L, XL</li>
-                                        <li>Colour: Light Blue</li>
+                                        <li>Colour: Light blue</li>
                                         <li>Model height: 177 cm</li>
                                     </ul>
-                          </div>
-                          <div class="col-3 text-center m-auto">
-                            <h5>19,900 AMD</h5>
-                              <a href="#" class="btn btn-secondary text-center">Add to cart</a>
-                          </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                                    <div><h5>19,900 AMD</h5></div>
+                                    <a href="product.html"><button class="btn btn-secondary">Add To Cart</button></a>
+                                </div>
+                            </div>
                         </div>
+                
 
+                       
+                          <div class="col-6 col-md-12 border p-2 mt-2">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <img class="w-100" src="https://static.bershka.net/4/photos2/2020/I/0/1/p/1110/335/800/1110335800_1_1_3.jpg?t=1583146583127" alt="">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-6 text-center text-lg-left">
+                                 <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Black denim jacket</a></h5>
+                                    <ul class="d-none d-lg-block" style="color: #808080">
+                                        <li>Sizes: S, L, XL</li>
+                                        <li>Colour: Black</li>
+                                        <li>Model height: 177 cm</li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                                    <div><h5>20,900 AMD</h5></div>
+                                    <a href="product.html"><button class="btn btn-secondary">Add To Cart</button></a>
+                                </div>
+                            </div>
+                        </div>
+                     
 
-                        <div class="row  mt-2 m-0 border">
-                          <div class="col-5 p-3">
-                          <img src="https://static.bershka.net/4/photos2/2020/V/0/1/p/1120/352/250/1120352250_2_2_3.jpg?t=1588779161510" class="card-img-top w-50" alt="..." >
-                          </div>
-                          <div class="col-4 m-auto">
-                            <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Cropped denim jacket</a></h5>
-                            <ul class="d-none d-lg-block" style="color: #808080">
-                                        <li>Sizes: XS, M, L</li>
+                   
+                          <div class="col-6 col-md-12 border p-2 mt-2">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <img class="w-100" src="https://static.bershka.net/4/photos2/2020/V/0/1/p/1120/352/250/1120352250_1_1_3.jpg?t=1588779161510" alt="">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-6 text-center text-lg-left">
+                                 <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Cropped denim jacket</a></h5>
+                                    <ul class="d-none d-lg-block" style="color: #808080">
+                                        <li>Sizes: S, M, XL</li>
                                         <li>Colour: White</li>
                                         <li>Model height: 177 cm</li>
                                     </ul>
-                          </div>
-                          <div class="col-3 text-center m-auto">
-                            <h5>21,900 AMD</h5>
-                              <a href="#" class="btn btn-secondary text-center">Add to cart</a>
-                          </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                                    <div><h5>17,900 AMD</h5></div>
+                                    <a href="product.html"><button class="btn btn-secondary">Add To Cart</button></a>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="row  mt-2 m-0 border">
-                          <div class="col-5 p-3">
-                          <img src="https://static.bershka.net/4/photos2/2020/I/0/1/p/1218/335/800/1218335800_2_2_3.jpg?t=1580480121034" class="card-img-top w-50" alt="..." >
-                          </div>
-                          <div class="col-4 m-auto">
-                            <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Denim jacket black</a></h5>
-                            <ul class="d-none d-lg-block" style="color: #808080">
-                                        <li>Sizes: XS, S, L</li>
-                                        <li>Colour: Black</li>
+                    
+                          <div class="col-6 col-md-12 border p-2 mt-2">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <img class="w-100" src="https://static.bershka.net/4/photos2/2020/V/0/1/p/6273/916/400/6273916400_1_1_3.jpg?t=1579857748618" alt="">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-6 text-center text-lg-left">
+                                 <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Denim cotton jacket</a></h5>
+                                    <ul class="d-none d-lg-block" style="color: #808080">
+                                        <li>Sizes: XS, M, L</li>
+                                        <li>Colour: Pink</li>
                                         <li>Model height: 178 cm</li>
                                     </ul>
-                          </div>
-                          <div class="col-3 text-center m-auto">
-                            <h5>16,900 AMD</h5>
-                              <a href="#" class="btn btn-secondary text-center">Add to cart</a>
-                          </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-3 text-center h-100">
+                                    <div><h5>22,900 AMD</h5></div>
+                                    <a href="product.html"><button class="btn btn-secondary">Add To Cart</button></a>
+                                </div>
+                            </div>
                         </div>
 
-                        <div class="row mt-2 m-0 border">
-                          <div class="col-5 p-3">
-                          <img src="https://static.bershka.net/4/photos2/2020/V/0/1/p/1112/590/428/1112590428_1_1_3.jpg?t=1580982156583" class="card-img-top w-50" alt="..." >
-                          </div>
-                          <div class="col-4 m-auto">
-                            <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Denim jacket with belt</a></h5>
-                            <ul class="d-none d-lg-block" style="color: #808080">
+
+                        <div class="col-6 col-md-12 border p-2 mt-2">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-md-4 col-lg-3">
+                                    <img class="w-100" src="https://static.bershka.net/4/photos2/2020/V/0/1/p/1115/777/428/1115777428_2_2_3.jpg?t=1583253090688" alt="">
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-6 text-center text-lg-left">
+                                 <h5><a href="product.html"  class="text-decoration-none" style="color: #808080">Long denim jacket</a></h5>
+                                    <ul class="d-none d-lg-block" style="color: #808080">
                                         <li>Sizes: S, M, XL</li>
-                                        <li>Colour: Blue</li>
-                                        <li>Model height: 176 cm</li>
+                                        <li>Colour: Pink</li>
+                                        <li>Model height: 173 cm</li>
                                     </ul>
-                          </div>
-                          <div class="col-3 text-center m-auto">
-                            <h5>24,900 AMD</h5>
-                              <a href="#" class="btn btn-secondary text-center">Add to cart</a>
-                          </div>
+                                </div>
+                                <div class="col-12 col-md-4 col-lg-3 text-center">
+                                    <div><h5>39,900 AMD</h5></div>
+                                    <a href="product.html"><button class="btn btn-secondary">Add To Cart</button></a>
+                                </div>
+                            </div>
                         </div>
+
+                      </div>
+               
+
                                   <!-- Pagination -->
           <nav aria-label="Page navigation example" class="mt-4">
               <ul class="pagination pg-dark justify-content-center">
@@ -554,6 +592,96 @@
 
 </div> 
 
+
+<!-- Modal 1 -->
+<div class="modal fade" id="LoginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="d-flex justify-content-center">
+  <button type="submit" class="btn btn-secondary">Login</button> </div>
+</form>
+  </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="RegModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel1">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="form-group">
+    <label for="inputAddress2">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity">City</label>
+      <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState">State</label>
+      <select id="inputState" class="form-control">
+        <option selected>Choose...</option>
+        <option>...</option>
+      </select>
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip">Zip</label>
+      <input type="text" class="form-control" id="inputZip">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-secondary">Sign up</button>
+</form>
+  </div>
+      </div>
+    </div>
+  </div>
 
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/ulg/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
